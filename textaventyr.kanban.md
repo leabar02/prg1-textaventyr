@@ -36,6 +36,9 @@ vid normala inmatningar. Om du vill så kan du använda mönstret valideraren fr
 
 ## In Progress
 
+#### läs och förstå uppgiften
+<!-- id: task-1790065613873-24 -->
+
 ## Done
 
 #### Klona repot
