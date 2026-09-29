@@ -6,10 +6,6 @@
 
 ## To Do
 
-#### Skriv berättelsen
-<!-- id: task-1789371029039-86 -->
-<!-- priority: critical -->
-
 #### Spelarnamn
 <!-- id: task-1789370256358-0 -->
 programmet frågar efter spelarens namn och lagrar det i en variabel
@@ -36,11 +32,15 @@ vid normala inmatningar. Om du vill så kan du använda mönstret valideraren fr
 
 ## In Progress
 
-#### läs och förstå uppgiften
-<!-- id: task-1790065613873-24 -->
+#### Skriv berättelsen
+<!-- id: task-1789371029039-86 -->
+<!-- priority: critical -->
 
 ## Done
 
 #### Klona repot
 <!-- id: task-1789371224632-115 -->
 Klona / forka repot och börja sedan jobba med materialet
+
+#### läs och förstå uppgiften
+<!-- id: task-1790065613873-24 -->
