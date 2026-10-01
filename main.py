@@ -1,13 +1,11 @@
-print("Wir shreiben gleich einen test auf dem computer.")
-print("Bereitet euch schon einmal vor.")
-print("Jetzt fangen wir an.")
+name = input("What is your name?")
 
-print("Erste Frage. Was ist dein name?")
+print("Today we are conducting an experiment, where you are to answer questions, depending on your answer the outcome will be differnt.")
+print("Question 1.")
+print("Which side do you choose, left or right?")
 
-name = input()
+answer = input("Left or Right?")
 
-print("nächste Frage. Wie alt bist du?")
+if answer == "left":
+    print("proceed to next question!") 
 
-alter = int(input())
-
-print("Nächste Frage, wenn du  ")

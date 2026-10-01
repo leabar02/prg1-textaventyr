@@ -6,10 +6,6 @@
 
 ## To Do
 
-#### Spelarnamn
-<!-- id: task-1789370256358-0 -->
-programmet frågar efter spelarens namn och lagrar det i en variabel
-
 #### Vägval i följd
 <!-- id: task-1789370317834-14 -->
 minst två if/else-val efter varandra, en fråga, lite berättelse, en ny fråga
@@ -44,3 +40,7 @@ Klona / forka repot och börja sedan jobba med materialet
 
 #### läs och förstå uppgiften
 <!-- id: task-1790065613873-24 -->
+
+#### Spelarnamn
+<!-- id: task-1789370256358-0 -->
+programmet frågar efter spelarens namn och lagrar det i en variabel
