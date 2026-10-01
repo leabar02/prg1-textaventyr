@@ -64,7 +64,7 @@ if answer == "left":
             
                 
 else:
-    print("Go to right door and open it, ")
+    print("Go to the right door and open it,  ")
 
 
 
