@@ -10,13 +10,13 @@
 <!-- id: task-1789370256358-0 -->
 programmet frågar efter spelarens namn och lagrar det i en variabel
 
-#### f-strängar
-<!-- id: task-1789370290018-5 -->
-spelarens namn används i minst tre print()-satser
-
 #### Vägval i följd
 <!-- id: task-1789370317834-14 -->
 minst två if/else-val efter varandra, en fråga, lite berättelse, en ny fråga
+
+#### f-strängar
+<!-- id: task-1789370290018-5 -->
+spelarens namn används i minst tre print()-satser
 
 #### .lower()
 <!-- id: task-1789370324820-21 -->
