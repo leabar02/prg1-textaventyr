@@ -1,201 +1,158 @@
-player = input("What is your name? ")
+player_name = input("name?")
 
-print("Today we are conducting an experiment, where you are to answer questions, depending on your answer the outcome will be differnt.")
-print()
-print("Question 1.")
-print()
-print(f"{player} stands in a room, there are two ways leading out. One door on the right and one door on the left. ")
-print()
-print("Which side do you choose?")
+print("Today we are conducting an experiment, where you are to answer questions, depending on your answer the outcome will be differnt.\n")
+print("Question 1. \n")
+print(f"{player_name} stands in a room, there are two ways leading out. One door on the right and one door on the left. \n")
+print("Which side do you choose?\n")
 
 answer = input("Left or Right?")
 
 if answer == "left":
-    print("Go to the left door and open it, as you grip the door handle you feel a cill going down your spine.") 
-    print()
-    print("It is cold but you keep walking. A voice in the speakers which are on the walls suddenly says, walk until the next door. ")
-    print()
-    print(f" {player} arrives at the door.")
-    print()
-    print("The voice speaks again.")
-    print()
-    print("What is your name?")
+    print("Go to the left door and open it, as you grip the door handle you feel a cill going down your spine. \n") 
+    print("It is cold but you keep walking. A voice in the speakers suddenly speaks, walk to the next room which is located around the corner. \n ")
+    print(f"When {player_name} arrives at the room, {player_name} opens the door. \n")
+    print("Then the voice speaks again, this time though it is slightly diffrent from before. \n")
+    print("What is your name subject? \n")
 
-    player = input("What is your name?")
+    player = input("name?")
     
-    print("Next question.")
-    print()
-    print("Which Item is more worth in Attack On Titan Revolution, attack serum or colossal serum?")
+    print(f"Hello! {player}, Do you know why you are in this room.\n")
     
-    answer = input()
+    know = input("Do you know why you are here, (Yes or No)?")
+
+    if know == "Yes":
+        print("Good!")
+    elif know == "No": 
+        print("You are here today to answer a few questions.")
+    else:
+        print("You are here to answer questions.")
+
+    print("Here comes the question.")
+    print("Which Item is worth the most (keys) in Attack On Titan Revolution, The Attack serum or Colossal serum?\n")
+    
+    answer = input("Attack or Colossal")
 
     if answer == "Attack serum":
-        print("That is wrong! For that reason it is game over for you.")
-        print()
-        print(f"{player} is shot to death. GAME OVER!")
+        print("That is wrong! For that reason it is game over for you. And you will be remembered as a jerk. \n")
+        print(f"{player} is shot to death. GAME OVER! \n")
     else:
-        print("That is right! You will now proceed to the next question.")
-        print()
-        print("The next question will be harder than the last one so don't be surprised if you get it wrong.")
-        print()
-        print("Now the next question will be done in the next room which is located beside this one. so go there now!")
-        print()
-        print(f" {player} is going to the next room. ")
-        print()
-        print("There the voice speaks again, now colder and more robotic then before.")
-        print()
-        print("What is your name?")
-        print()
+        print("That is right! You will now proceed to the next question. \n")
+        print("The next question will be harder than the last one so don't be surprised if you get it wrong. \n")
+        print("Now the next question will be done in the next room which is located beside this one. so go there now! \n")
+        print(f" {player} is going to the next room. \n")
+        print("There the voice speaks again, now colder and more robotic then before. \n")
+        print("What is your name? \n")
+  
 
         player = input()
 
-        print()
-        print(f"Welcome {player} ")
-        print()
-        print("The next question we are going to ask you is" )
-        print()
+   
+        print(f"Welcome {player} \n")
+        print("The next question we are going to ask you is \n")
         print("Who is stronger in Naruto Shippudden; Madara Uchiha or Sasuke Uchiha? ")
 
         answer = input()
 
         if answer == " Sasuke Uchiha":
-            print("That is very wrong.")
-            print()
-            print("Madara outpasted Sasuke in every way, but sadly black zetsu killed him.")
-            print()
-            print("For answering wrong we have decided to test what happens if we put you into a tank full with acids.")
-            print()
-            print(f" {player} is thrown into a tank full with acids and gets desolved. GAME OVER!")
+            print("That is very wrong! \n")
+            print("Madara outclassed Sasuke in every way, but sadly black zetsu killed him. \n")
+            print("For answering wrong you are to die! \n")
+            print(f" {player} is thrown into a tank full with acids and gets desolved. GAME OVER! \n")
         else:
-            print(f" {player} has gotten the right answer and gets to proceed to the next question.")
-            print()
-            print("The next question will be the final one, there are two doors infront of you. Choose which you will go through.")
-            print()
-            print("Door A, or Door B. ")
+            print(f" {player} has gotten the right answer and gets to proceed to the next question. \n")
+            print("The next question will be the final one, there are two doors infront of you. Choose which you will go through. \n")
+            print("Door A, or Door B. \n")
 
             answer = input()
 
             if answer == "Door A":
-                print(f"{player} goes through door A, there is nothing but black space there. Then you hear an explosion and everything goes silent.")
-                print()
-                print(f"{player} has died and has failed the experiment. GAME OVER")
-            else: 
-                print(f" {player} goes through door B, and suddenly everything is burning. You feel cold and fear takes hold of {player}. ")
-                print()
-                print(f"After a few minutes {player} dies. GAME OVER!")
+                print(f"{player} goes through door A, there is nothing but black space there. Then you hear an explosion and everything goes silent. \n")
+                print(f"{player} has died and has failed the experiment. GAME OVER \n")
+            elif answer == "Door B":
+                print(f" {player} goes through door B, and suddenly everything is burning. You feel cold and fear takes hold of {player}. \n")
+                print(f"After a few minutes {player} dies. GAME OVER! \n")
             
                 
-else: 
-    print("Go to the right door and open it,  ")
+elif answer == "Right": 
+    print("Go to the right door and open it, \n ")
 
-    player = str(input("What is your name"))
+    player = str(input("What is your name? "))
     
-    print(f"{player} has gone through the right door, {player} will now begin the experiment. ")
-    print()
-    print(f"{player} walks through a long corridor, there are old paintings of people on the walls. There in the end of the corridor there is a door slightly open, through it there is a shining light.")
-    print()
-    print(f"Attention {player} must go through the door otherwise you are awaiting a tragic fate. ") 
-    print()
-    print(f"{player} goes through the door.")
-    print()
-    print("Question 1.")
-    print()
-    print("Which mountain is higher?")
-    print()
-    print("A. Großglockner. B. Matterhorn C. Zugspitze.")
+    print(f"{player} has gone through the right door, {player} will now begin the experiment.\n ")
+    print(f"{player} walks through a long corridor, there are old paintings of people on the walls. There in the end of the corridor there is a door slightly open, through it there is a shining light.\n")
+    print(f"Attention {player} must go through the door otherwise you are awaiting a tragic fate.\n ") 
+    print(f"{player} goes through the door.\n")
+    print("Question 1.\n")
+    print("Which mountain is higher?\n")
+    print("A. Großglockner. B. Matterhorn C. Zugspitze.\n")
 
-    answer = input("Großglockner, Matterhorn, Zugspitze")
+    answer = input("Großglockner, Matterhorn, Zugspitze? ")
 
     if answer == "Großglockner": 
-        print("Wrong!")
-        print()
-        print("proceed to next question.")
-        print(f"{player} is about to go to the next qustion, then {player} hears a noise comming from below. The floor is viberating, then it opens and {player} falls in.")
-        print()
-        print("Game over!")
+        print("Wrong!\n")
+        print("proceed to next question.\n")
+        print(f"{player} is about to go to the next qustion, then {player} hears a noise comming from below. The floor is viberating, then it opens and {player} falls in.\n")
+        print("Game over!\n")
 
     elif answer == "Matterhorn":
-        print(f"{player} has chosen the correct answer and will now be alowed to go to the next question.")
-        print()
-        print("The next question will be the final one.")
-        print()
-        print("Final Question!")
-        print()
-        print("The final question will be impossible!")
-        print()
-        print("Which is my favorite family in AOTR")
-        print()
-        print("Reiss, Helos, Fritz, Ackermann. or Yeager. Choose one only.")
+        print(f"{player} has chosen the correct answer and will now be alowed to go to the next question.\n")
+        print("The next question will be the final one.\n")
+        print("Final Question!\n")     
+        print("The final question will be impossible!\n")
+        print("Which is my favorite family in AOTR\n")
+        print("Reiss, Helos, Fritz, Ackermann. or Yeager. Choose one only.\n")
 
         answer = input()
 
         if answer == "Reiss":
-            print("wrong")
-            print()
-            print("close but no.")
-            print()
-            print("Game Over")
-            print()
-            print(f"{player} is put in jail!")
+            print("wrong \n")
+            print("close but no. \n")
+            print("Game Over\n")
+            print(f"{player} is put in jail!\n")
 
         elif answer == "Fritz":
-            print("So close, but it's still wrong!")
-            print()
-            print("Game Over")
-            print(f"{player} is put in jail!")
+            print("So close, but it's still wrong!\n")
+            print("Game Over\n")
+            print(f"{player} is put in jail!\n")
 
         elif answer == "Helos":
-            print("You got it right!")
-            print()
-            print(f"{player} has won and will be given the title Champion!")
-            print()
-            print("player won! and can now return home to freedom")
-
+            print("You got it right!\n")
+            print(f"{player} has won and will be given the title Champion!\n")
+            print("player won! and can now return home to freedom\n")
         elif answer == "Ackermann":
-            print("Extremly close but no!")
-            print()
-            print("Game Over!")
-            print(f"{player} is put in jail!")
+            print("Extremly close but no!\n")
+            print("Game Over!\n")
+            print(f"{player} is put in jail!\n")
 
         elif answer == "Yeager":
-            print("Wrong!")
-            print()
-            print("Game Over!")
-            print(f"{player} is put in jail!")
+            print("Wrong!\n")
+            print("Game Over!\n")
+            print(f"{player} is put in jail!\n")
 
         else:
-            print(f"since {player} answered wrong, {player} is thrown into a lake with water but {player} doesn't float but instead sinks to the bottom and drowns.")
-            print()
-            print(f"Game over! {player} has died from lack of oxygen. ")
+            print(f"since {player} answered wrong, {player} is thrown into a lake with water but {player} doesn't float but instead sinks to the bottom and drowns.\n")
+            print(f"Game over! {player} has died from lack of oxygen. \n")
     
     elif answer == "Zugspitze":
-        print("Wrong!")
-        print()
-        print(f"{player} has gotten the most wrong answer but will be given a second chance.")
-        print()
-        print(f"If {player} answers next question right, then {player} gets a mystery price. ")
-        print()
-        print("Final Question!")
-        print()
-        print("What is more worth in aotr Gunbai or berserkers mane or devil wing?")
+        print("Wrong!\n")
+        print(f"{player} has gotten the most wrong answer but will be given a second chance.\n")
+        print(f"If {player} answers next question right, then {player} gets a mystery price. \n")   
+        print("Final Question!\n")
+        print("What is more worth in aotr Gunbai or berserkers mane or devil wing?\n")
 
         answer = input("Which is worth more, (Gunbai, berserkers mane or devil wing): ")
 
-        if answer.lower() == "Gunbai":
-            print("Almost")
-            print()
-            print("Game over!")
+        if answer.lower() == "gunbai":
+            print("Almost\n")
+            print("Game over!\n")
         elif answer.lower() == "berserkers mane":
-            print("Almost")
-            print()
-            print("Game Over!")
+            print("Almost!\n")
+            print("Game Over!\n")
         elif answer.lower() == "devil wing":
-            print("Wrong!")
-            print()
-            print("")
-
+            print("Wrong!\n")
+            print("Game Over!\n")
+            print(f"{player} is shot!\n")
     else: 
-        print("player hasn't answered the questions and will therefore be terminated.")
-        print(f"{player} suddenly doesn't feel his heartbeat anymore and collapses on the floor.")
-        print()
-        print("Game Over!")
+        print("player hasn't answered the questions and will therefore be terminated.\n")
+        print(f"{player} suddenly doesn't feel his heartbeat anymore and collapses on the floor.\n")
+        print("Game Over!\n")
