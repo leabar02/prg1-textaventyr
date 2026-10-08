@@ -28,28 +28,28 @@ if answer == "left":
         print("You are here to answer questions.")
 
     print("Here comes the question.")
-    print("Which Item is worth the most (keys) in Attack On Titan Revolution, The Attack serum or Colossal serum?\n")
+    print("Which Item is worth the most (keys), in Attack On Titan Revolution, The Attack serum or Colossal serum?\n")
     
     answer = input("Attack or Colossal")
 
     if answer == "Attack serum":
-        print("That is wrong! For that reason it is game over for you. And you will be remembered as a jerk. \n")
+        print("Wrong! For that reason it is now game over for you. And you will be remembered as a jerk for thinking Colossal is worth so liitle. \n")
         print(f"{player} is shot to death. GAME OVER! \n")
-    else:
+    elif answer == "Colossal serum":
         print("That is right! You will now proceed to the next question. \n")
-        print("The next question will be harder than the last one so don't be surprised if you get it wrong. \n")
-        print("Now the next question will be done in the next room which is located beside this one. so go there now! \n")
-        print(f" {player} is going to the next room. \n")
-        print("There the voice speaks again, now colder and more robotic then before. \n")
+        print("The next question will be harder than the last one, so don't be surprised if you get it wrong. \n")
+        print("The next question will be done in the room next door, so go there now! \n")
+        print(f" {player} is going to the room. \n")
+        print("There the voice speaks again, now colder and more robotic than before. \n")
         print("What is your name? \n")
   
 
-        player = input()
+        player = input("name?")
 
    
         print(f"Welcome {player} \n")
-        print("The next question we are going to ask you is \n")
-        print("Who is stronger in Naruto Shippudden; Madara Uchiha or Sasuke Uchiha? ")
+        print("The next question is... \n")
+        print("Who is stronger in Naruto Shippudden, Madara Uchiha or Sasuke Uchiha? ")
 
         answer = input()
 
@@ -58,12 +58,15 @@ if answer == "left":
             print("Madara outclassed Sasuke in every way, but sadly black zetsu killed him. \n")
             print("For answering wrong you are to die! \n")
             print(f" {player} is thrown into a tank full with acids and gets desolved. GAME OVER! \n")
-        else:
+        elif answer == "Madara Uchiha":
             print(f" {player} has gotten the right answer and gets to proceed to the next question. \n")
+        else:
+            print("Game over! not related to the topic, you are sent to shiganshina right as the the titans storm in. You are torn to shreds in seconds because yor fear is to great to even take a single step forward. After screaming endlessly you finally die. ")
+            
             print("The next question will be the final one, there are two doors infront of you. Choose which you will go through. \n")
             print("Door A, or Door B. \n")
-
-            answer = input()
+            
+            answer = input("A or B")
 
             if answer == "Door A":
                 print(f"{player} goes through door A, there is nothing but black space there. Then you hear an explosion and everything goes silent. \n")
@@ -71,15 +74,17 @@ if answer == "left":
             elif answer == "Door B":
                 print(f" {player} goes through door B, and suddenly everything is burning. You feel cold and fear takes hold of {player}. \n")
                 print(f"After a few minutes {player} dies. GAME OVER! \n")
+            else:
+                print("You are killed through severall holes that appear in your body.")
             
                 
 elif answer == "Right": 
     print("Go to the right door and open it, \n ")
 
-    player = str(input("What is your name? "))
+    player = input("What is your name? ")
     
     print(f"{player} has gone through the right door, {player} will now begin the experiment.\n ")
-    print(f"{player} walks through a long corridor, there are old paintings of people on the walls. There in the end of the corridor there is a door slightly open, through it there is a shining light.\n")
+    print(f"{player} walks down a long corridor, there are old paintings of people on the walls. There in the end of the corridor there is a door slightly open, through it there is a shining light.\n")
     print(f"Attention {player} must go through the door otherwise you are awaiting a tragic fate.\n ") 
     print(f"{player} goes through the door.\n")
     print("Question 1.\n")
@@ -156,3 +161,5 @@ elif answer == "Right":
         print("player hasn't answered the questions and will therefore be terminated.\n")
         print(f"{player} suddenly doesn't feel his heartbeat anymore and collapses on the floor.\n")
         print("Game Over!\n")
+else:
+    print("Game Over! for no reason.")
